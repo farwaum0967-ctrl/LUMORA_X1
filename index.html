@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Lumora X1 — Premium professional camera with scroll-driven animations.">
+
+    <title>LUMORA X1 | Capture Beyond the Visible</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================
+         PAGE LOADER
+    ====================================== -->
+
+    <div class="page-loader" id="pageLoader">
+
+        <div class="loader-lens">
+
+            <div class="loader-ring"></div>
+
+            <div class="loader-glass"></div>
+
+        </div>
+
+        <div class="loader-brand">
+            LUMORA <span>X1</span>
+        </div>
+
+        <div class="loader-progress">
+
+            <span id="loaderProgress"></span>
+
+        </div>
+
+        <p>Preparing your vision</p>
+
+    </div>
+
+
+    <!-- =====================================
+         CUSTOM CURSOR
+    ====================================== -->
+
+    <div class="cursor-dot"></div>
+
+    <div class="cursor-circle">
+
+        <span>VIEW</span>
+
+    </div>
+
+
+    <!-- =====================================
+         SCROLL PROGRESS
+    ====================================== -->
+
+    <div class="scroll-progress">
+
+        <span id="scrollProgress"></span>
+
+    </div>
+
+
+    <!-- =====================================
+         BACKGROUND EFFECTS
+    ====================================== -->
+
+    <div class="background-effects">
+
+        <div class="red-glow glow-one"></div>
+
+        <div class="red-glow glow-two"></div>
+
+        <div class="grid-background"></div>
+
+        <div class="noise-effect"></div>
+
+    </div>
+
+
+    <!-- =====================================
+         HEADER / NAVIGATION
+    ====================================== -->
+
+    <header class="header" id="header">
+
+        <a href="#home" class="logo">
+
+            <span class="logo-icon">
+                <i class="fa-solid fa-camera"></i>
+            </span>
+
+            <span class="logo-text">
+                LUMORA <strong>X1</strong>
+            </span>
+
+        </a>
+
+        <button class="menu-button"
+                id="menuButton"
+                aria-label="Open navigation menu">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+        <nav class="navbar" id="navbar">
+
+            <a href="#home"
+               class="nav-link active">
+                Home
+            </a>
+
+            <a href="#experience"
+               class="nav-link">
+                Experience
+            </a>
+
+            <a href="#features"
+               class="nav-link">
+                Features
+            </a>
+
+            <a href="#gallery"
+               class="nav-link">
+                Gallery
+            </a>
+
+            <a href="#specifications"
+               class="nav-link">
+                Specifications
+            </a>
+
+            <a href="#buy"
+               class="nav-button">
+                Explore X1
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- =====================================
+             HERO SECTION
+        ====================================== -->
+
+        <section class="hero section" id="home">
+
+            <div class="hero-decoration">
+
+                <span class="vertical-text">
+                    PROFESSIONAL MIRRORLESS CAMERA
+                </span>
+
+                <span class="hero-line"></span>
+
+            </div>
+
+            <div class="hero-content">
+
+                <p class="hero-label reveal">
+                    Introducing the new generation
+                </p>
+
+                <h1 class="hero-title">
+
+                    <span class="title-line reveal">
+                        CAPTURE
+                    </span>
+
+                    <span class="title-line outline-text reveal">
+                        BEYOND
+                    </span>
+
+                    <span class="title-line reveal">
+                        THE VISIBLE
+                    </span>
+
+                </h1>
+
+                <p class="hero-description reveal">
+                    Meet the LUMORA X1—a professional camera designed
+                    to transform fleeting moments into unforgettable
+                    visual stories.
+                </p>
+
+                <div class="hero-buttons reveal">
+
+                    <a href="#experience"
+                       class="primary-button magnetic-button">
+
+                        <span>Discover X1</span>
+
+                        <i class="fa-solid fa-arrow-down"></i>
+
+                    </a>
+
+                    <button class="play-button"
+                            id="playButton"
+                            type="button">
+
+                        <span class="play-icon">
+                            <i class="fa-solid fa-play"></i>
+                        </span>
+
+                        <span>Watch Film</span>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- CSS CAMERA HERO MODEL -->
+
+            <div class="hero-camera-area"
+                 id="heroCameraArea">
+
+                <div class="camera-shadow"></div>
+
+                <div class="camera-model"
+                     id="heroCamera">
+
+                    <!-- Camera Top Controls -->
+
+                    <div class="camera-top">
+
+                        <div class="camera-dial camera-dial-left">
+
+                            <span></span>
+
+                        </div>
+
+                        <div class="camera-viewfinder">
+
+                            <div class="viewfinder-glass"></div>
+
+                        </div>
+
+                        <div class="camera-dial camera-dial-right">
+
+                            <span></span>
+
+                        </div>
+
+                        <div class="shutter-button"></div>
+
+                    </div>
+
+                    <!-- Camera Body -->
+
+                    <div class="camera-body">
+
+                        <div class="camera-brand">
+                            LUMORA
+                        </div>
+
+                        <div class="camera-model-name">
+                            X1
+                        </div>
+
+                        <div class="camera-grip">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                        <div class="camera-small-light"></div>
+
+                        <!-- Lens System -->
+
+                        <div class="camera-lens">
+
+                            <div class="lens-ring lens-ring-one"></div>
+
+                            <div class="lens-ring lens-ring-two"></div>
+
+                            <div class="lens-ring lens-ring-three"></div>
+
+                            <div class="lens-glass">
+
+                                <div class="lens-reflection"></div>
+
+                                <div class="lens-center"></div>
+
+                            </div>
+
+                            <div class="focus-marks">
+
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Floating Specifications -->
+
+                <div class="floating-spec spec-one">
+
+                    <span>45</span>
+
+                    <p>MEGAPIXELS</p>
+
+                </div>
+
+                <div class="floating-spec spec-two">
+
+                    <span>8K</span>
+
+                    <p>CINEMA VIDEO</p>
+
+                </div>
+
+                <div class="floating-spec spec-three">
+
+                    <span>20</span>
+
+                    <p>FPS BURST</p>
+
+                </div>
+
+                <div class="camera-orbit orbit-one"></div>
+
+                <div class="camera-orbit orbit-two"></div>
+
+            </div>
+
+
+            <!-- Scroll Indicator -->
+
+            <a href="#experience"
+               class="scroll-indicator">
+
+                <span>Scroll to explore</span>
+
+                <div class="scroll-mouse">
+
+                    <span></span>
+
+                </div>
+
+            </a>
+
+        </section>
+
+
+        <!-- =====================================
+             SCROLL CAMERA EXPERIENCE
+        ====================================== -->
+
+        <section class="camera-experience"
+                 id="experience">
+
+            <div class="experience-sticky">
+
+                <!-- Experience Introduction -->
+
+                <div class="experience-heading">
+
+                    <span>ENGINEERED FOR VISION</span>
+
+                    <h2>
+                        Explore Every
+                        <strong>Layer</strong>
+                    </h2>
+
+                </div>
+
+
+                <!-- Exploded Camera Model -->
+
+                <div class="exploded-camera"
+                     id="explodedCamera">
+
+                    <div class="exploded-shadow"></div>
+
+
+                    <!-- Camera Back Layer -->
+
+                    <div class="camera-part back-body"
+                         data-speed="-110">
+
+                        <div class="back-screen">
+
+                            <div class="screen-preview">
+
+                                <i class="fa-solid fa-mountain-sun"></i>
+
+                            </div>
+
+                        </div>
+
+                        <div class="back-buttons">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Sensor Layer -->
+
+                    <div class="camera-part sensor-layer"
+                         data-speed="-65">
+
+                        <span class="sensor-label">
+                            FULL-FRAME SENSOR
+                        </span>
+
+                        <div class="sensor-glass"></div>
+
+                    </div>
+
+
+                    <!-- Main Camera Body -->
+
+                    <div class="camera-part main-body"
+                         data-speed="0">
+
+                        <div class="main-body-top"></div>
+
+                        <div class="main-body-front">
+
+                            <span class="body-brand">
+                                LUMORA
+                            </span>
+
+                            <span class="body-model">
+                                X1
+                            </span>
+
+                            <div class="body-mount"></div>
+
+                            <div class="body-grip"></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Processor Layer -->
+
+                    <div class="camera-part processor-layer"
+                         data-speed="60">
+
+                        <div class="processor-chip">
+
+                            <i class="fa-solid fa-microchip"></i>
+
+                            <span>VISION X</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Lens Rear Glass -->
+
+                    <div class="camera-part lens-part lens-rear"
+                         data-speed="100">
+
+                        <div class="inner-glass"></div>
+
+                    </div>
+
+
+                    <!-- Lens Ring One -->
+
+                    <div class="camera-part lens-part lens-section-one"
+                         data-speed="145">
+
+                        <div class="lens-text">
+                            24–70 MM
+                        </div>
+
+                    </div>
+
+
+                    <!-- Lens Ring Two -->
+
+                    <div class="camera-part lens-part lens-section-two"
+                         data-speed="195">
+
+                        <div class="focus-lines">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Front Lens -->
+
+                    <div class="camera-part lens-part front-lens"
+                         data-speed="255">
+
+                        <div class="front-lens-glass">
+
+                            <div class="front-reflection"></div>
+
+                            <div class="aperture">
+
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Scroll Information Panels -->
+
+                <div class="experience-copy">
+
+                    <article class="experience-step active"
+                             data-step="0">
+
+                        <span class="step-number">01</span>
+
+                        <p class="step-label">
+                            PRECISION BODY
+                        </p>
+
+                        <h3>Crafted for Control</h3>
+
+                        <p>
+                            A lightweight magnesium body provides
+                            professional strength, comfort and complete
+                            creative control.
+                        </p>
+
+                    </article>
+
+
+                    <article class="experience-step"
+                             data-step="1">
+
+                        <span class="step-number">02</span>
+
+                        <p class="step-label">
+                            FULL-FRAME SENSOR
+                        </p>
+
+                        <h3>See Every Detail</h3>
+
+                        <p>
+                            The 45-megapixel sensor captures beautiful
+                            colors, deep shadows and extraordinary detail
+                            in every frame.
+                        </p>
+
+                    </article>
+
+
+                    <article class="experience-step"
+                             data-step="2">
+
+                        <span class="step-number">03</span>
+
+                        <p class="step-label">
+                            VISION X PROCESSOR
+                        </p>
+
+                        <h3>Power Behind the Image</h3>
+
+                        <p>
+                            Intelligent processing delivers accurate
+                            autofocus, natural tones and powerful
+                            low-light performance.
+                        </p>
+
+                    </article>
+
+
+                    <article class="experience-step"
+                             data-step="3">
+
+                        <span class="step-number">04</span>
+
+                        <p class="step-label">
+                            OPTICAL SYSTEM
+                        </p>
+
+                        <h3>Glass Without Limits</h3>
+
+                        <p>
+                            Precision lens elements create exceptional
+                            sharpness, cinematic depth and smooth,
+                            natural backgrounds.
+                        </p>
+
+                    </article>
+
+
+                    <article class="experience-step"
+                             data-step="4">
+
+                        <span class="step-number">05</span>
+
+                        <p class="step-label">
+                            COMPLETE ASSEMBLY
+                        </p>
+
+                        <h3>Built to Capture More</h3>
+
+                        <p>
+                            Every component works together to place
+                            speed, detail and cinematic creativity
+                            directly in your hands.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+
+            <!-- Scroll Distance Controllers -->
+
+            <div class="experience-scroll-space">
+
+                <div class="scroll-stage"
+                     data-stage="0"></div>
+
+                <div class="scroll-stage"
+                     data-stage="1"></div>
+
+                <div class="scroll-stage"
+                     data-stage="2"></div>
+
+                <div class="scroll-stage"
+                     data-stage="3"></div>
+
+                <div class="scroll-stage"
+                     data-stage="4"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             FEATURES SECTION
+        ====================================== -->
+
+        <section class="features section" id="features">
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    PERFORMANCE WITHOUT COMPROMISE
+                </p>
+
+                <h2>
+                    Created to Capture
+                    <span>the Impossible.</span>
+                </h2>
+
+            </div>
+
+            <div class="features-grid">
+
+                <article class="feature-card large-card reveal">
+
+                    <span class="feature-number">01</span>
+
+                    <div class="feature-icon">
+
+                        <i class="fa-solid fa-video"></i>
+
+                    </div>
+
+                    <div class="feature-content">
+
+                        <p class="feature-label">
+                            CINEMA QUALITY
+                        </p>
+
+                        <h3>8K RAW Video</h3>
+
+                        <p>
+                            Record cinematic footage with extraordinary
+                            detail, smooth motion and professional color
+                            flexibility.
+                        </p>
+
+                    </div>
+
+                    <div class="video-resolution">
+
+                        <span>8K</span>
+
+                        <small>7680 × 4320</small>
+
+                    </div>
+
+                </article>
+
+
+                <article class="feature-card reveal">
+
+                    <span class="feature-number">02</span>
+
+                    <div class="feature-icon">
+
+                        <i class="fa-solid fa-moon"></i>
+
+                    </div>
+
+                    <p class="feature-label">
+                        LOW LIGHT
+                    </p>
+
+                    <h3>Night Vision</h3>
+
+                    <p>
+                        Capture clean and detailed images even after
+                        the light disappears.
+                    </p>
+
+                    <div class="night-visual">
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+
+                        <span class="night-moon"></span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="feature-card reveal">
+
+                    <span class="feature-number">03</span>
+
+                    <div class="feature-icon">
+
+                        <i class="fa-solid fa-crosshairs"></i>
+
+                    </div>
+
+                    <p class="feature-label">
+                        INTELLIGENT FOCUS
+                    </p>
+
+                    <h3>0.03s Autofocus</h3>
+
+                    <p>
+                        Advanced subject detection locks onto the
+                        perfect moment with remarkable speed.
+                    </p>
+
+                    <div class="focus-visual">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                        <div class="focus-center"></div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="feature-card wide-card reveal">
+
+                    <span class="feature-number">04</span>
+
+                    <div class="feature-icon">
+
+                        <i class="fa-solid fa-wave-square"></i>
+
+                    </div>
+
+                    <div class="feature-content">
+
+                        <p class="feature-label">
+                            STEADY MOTION
+                        </p>
+
+                        <h3>8-Stop Stabilization</h3>
+
+                        <p>
+                            Create sharp handheld photos and beautifully
+                            smooth videos without additional equipment.
+                        </p>
+
+                    </div>
+
+                    <div class="stabilization-visual">
+
+                        <div class="stabilization-ring ring-one"></div>
+
+                        <div class="stabilization-ring ring-two"></div>
+
+                        <div class="stabilization-center">
+
+                            <i class="fa-solid fa-camera"></i>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             CINEMATIC BANNER
+        ====================================== -->
+
+        <section class="cinematic-banner">
+
+            <div class="banner-background"></div>
+
+            <div class="banner-content reveal">
+
+                <p>MADE FOR STORYTELLERS</p>
+
+                <h2>
+                    Every Frame Has
+                    <span>a Story.</span>
+                </h2>
+
+                <button class="banner-play-button"
+                        id="bannerPlayButton"
+                        type="button">
+
+                    <i class="fa-solid fa-play"></i>
+
+                    <span>Play Brand Film</span>
+
+                </button>
+
+            </div>
+
+            <div class="recording-indicator">
+
+                <span></span>
+
+                REC
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             GALLERY SECTION
+        ====================================== -->
+
+        <section class="gallery section" id="gallery">
+
+            <div class="section-heading gallery-heading reveal">
+
+                <div>
+
+                    <p class="section-label">
+                        SHOT ON LUMORA X1
+                    </p>
+
+                    <h2>
+                        Designed for Every
+                        <span>Perspective.</span>
+                    </h2>
+
+                </div>
+
+                <p>
+                    From city lights to quiet landscapes, LUMORA X1
+                    preserves the atmosphere of every scene.
+                </p>
+
+            </div>
+
+
+            <div class="gallery-grid">
+
+                <article class="gallery-card gallery-landscape reveal">
+
+                    <div class="gallery-art landscape-art">
+
+                        <div class="art-sun"></div>
+
+                        <div class="art-mountain mountain-one"></div>
+
+                        <div class="art-mountain mountain-two"></div>
+
+                        <div class="art-ground"></div>
+
+                    </div>
+
+                    <div class="gallery-overlay">
+
+                        <span>LANDSCAPE</span>
+
+                        <p>24mm · f/4 · 1/500s</p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="gallery-card gallery-portrait reveal">
+
+                    <div class="gallery-art portrait-art">
+
+                        <div class="portrait-light"></div>
+
+                        <div class="portrait-head"></div>
+
+                        <div class="portrait-body"></div>
+
+                    </div>
+
+                    <div class="gallery-overlay">
+
+                        <span>PORTRAIT</span>
+
+                        <p>85mm · f/1.8 · 1/250s</p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="gallery-card gallery-city reveal">
+
+                    <div class="gallery-art city-art">
+
+                        <div class="city-moon"></div>
+
+                        <div class="building building-one"></div>
+
+                        <div class="building building-two"></div>
+
+                        <div class="building building-three"></div>
+
+                        <div class="city-road"></div>
+
+                    </div>
+
+                    <div class="gallery-overlay">
+
+                        <span>NIGHT CITY</span>
+
+                        <p>35mm · f/2 · 1/80s</p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             SPECIFICATIONS SECTION
+        ====================================== -->
+
+        <section class="specifications section"
+                 id="specifications">
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    TECHNICAL EXCELLENCE
+                </p>
+
+                <h2>
+                    Professional Power.
+                    <span>Beautifully Refined.</span>
+                </h2>
+
+            </div>
+
+            <div class="specification-wrapper">
+
+                <div class="specification-camera reveal">
+
+                    <div class="side-camera-model">
+
+                        <div class="side-camera-body">
+
+                            <span>LUMORA</span>
+
+                            <div class="side-camera-grip"></div>
+
+                        </div>
+
+                        <div class="side-camera-lens">
+
+                            <div class="side-lens-ring"></div>
+
+                            <div class="side-lens-front"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="specification-list">
+
+                    <div class="specification-item reveal">
+
+                        <span>01</span>
+
+                        <p>Sensor</p>
+
+                        <strong>
+                            45 MP Full-Frame CMOS
+                        </strong>
+
+                    </div>
+
+                    <div class="specification-item reveal">
+
+                        <span>02</span>
+
+                        <p>Processor</p>
+
+                        <strong>
+                            VISION X Imaging Engine
+                        </strong>
+
+                    </div>
+
+                    <div class="specification-item reveal">
+
+                        <span>03</span>
+
+                        <p>Video</p>
+
+                        <strong>
+                            8K RAW at 60 FPS
+                        </strong>
+
+                    </div>
+
+                    <div class="specification-item reveal">
+
+                        <span>04</span>
+
+                        <p>Autofocus</p>
+
+                        <strong>
+                            1,053 Intelligent AF Points
+                        </strong>
+
+                    </div>
+
+                    <div class="specification-item reveal">
+
+                        <span>05</span>
+
+                        <p>Stabilization</p>
+
+                        <strong>
+                            8-Stop In-Body System
+                        </strong>
+
+                    </div>
+
+                    <div class="specification-item reveal">
+
+                        <span>06</span>
+
+                        <p>Weight</p>
+
+                        <strong>
+                            680g Body Only
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             FINAL PRODUCT / BUY SECTION
+        ====================================== -->
+
+        <section class="buy-section section" id="buy">
+
+            <div class="buy-glow"></div>
+
+            <div class="buy-camera reveal">
+
+                <div class="final-camera">
+
+                    <div class="final-camera-top"></div>
+
+                    <div class="final-camera-body">
+
+                        <span class="final-brand">
+                            LUMORA
+                        </span>
+
+                        <span class="final-model-name">
+                            X1
+                        </span>
+
+                        <div class="final-grip"></div>
+
+                        <div class="final-lens">
+
+                            <div class="final-lens-ring"></div>
+
+                            <div class="final-glass">
+
+                                <span></span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="buy-content reveal">
+
+                <p class="section-label">
+                    YOUR NEXT STORY STARTS HERE
+                </p>
+
+                <h2>
+                    LUMORA
+                    <span>X1</span>
+                </h2>
+
+                <p>
+                    Professional performance, cinematic quality and
+                    intelligent creativity in one extraordinary camera.
+                </p>
+
+                <div class="price">
+
+                    <small>Starting from</small>
+
+                    <strong>$2,499</strong>
+
+                </div>
+
+                <div class="buy-buttons">
+
+                    <button class="primary-button magnetic-button"
+                            type="button">
+
+                        <span>Buy LUMORA X1</span>
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </button>
+
+                    <a href="#specifications"
+                       class="secondary-button">
+
+                        View Full Specifications
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================
+         VIDEO MODAL
+    ====================================== -->
+
+    <div class="video-modal"
+         id="videoModal"
+         aria-hidden="true">
+
+        <div class="video-modal-content">
+
+            <button class="close-video"
+                    id="closeVideo"
+                    type="button"
+                    aria-label="Close video">
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+            <div class="video-placeholder">
+
+                <div class="video-camera-icon">
+
+                    <i class="fa-solid fa-video"></i>
+
+                </div>
+
+                <h3>LUMORA X1</h3>
+
+                <p>Capture Beyond the Visible</p>
+
+                <span>Brand Film Preview</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================
+         CAMERA FLASH
+    ====================================== -->
+
+    <div class="camera-flash"
+         id="cameraFlash"></div>
+
+
+    <!-- =====================================
+         FOOTER
+    ====================================== -->
+
+    <footer class="footer">
+
+        <div class="footer-top">
+
+            <a href="#home" class="footer-logo">
+
+                LUMORA <span>X1</span>
+
+            </a>
+
+            <p>
+                Designed for those who see the world differently.
+            </p>
+
+            <div class="footer-socials">
+
+                <a href="#"
+                   aria-label="Instagram">
+
+                    <i class="fa-brands fa-instagram"></i>
+
+                </a>
+
+                <a href="#"
+                   aria-label="YouTube">
+
+                    <i class="fa-brands fa-youtube"></i>
+
+                </a>
+
+                <a href="#"
+                   aria-label="Facebook">
+
+                    <i class="fa-brands fa-facebook-f"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © <span id="currentYear"></span>
+                LUMORA Imaging. Concept website.
+            </p>
+
+            <a href="#home" class="back-to-top">
+
+                Back to top
+
+                <i class="fa-solid fa-arrow-up"></i>
+
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
